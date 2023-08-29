@@ -1,0 +1,9 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.6.0"
+  name = "aug29laki1"
+  org = "lakshansivagnanasothy"
+  version = "0.1.0"
+
