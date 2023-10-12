@@ -12,7 +12,7 @@ service / on new http:Listener(9090) {
     # + return - string name with hello message or error
     resource function get greeting(string name) returns string|error {
         // Send a response back to the caller.
-        log:printInfo(fromName);
+        log.printInfo(fromName);
         if name is "" {
             return error("name should not be empty! " + fromName);
         }
